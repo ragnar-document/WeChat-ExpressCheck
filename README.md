@@ -6,7 +6,7 @@
 
 [使用方法](https://help.aliyun.com/knowledge_detail/44816.html?spm=5176.730006-56956004-56928004-cmapi021863.content.6.2c1376d7ZD0Mrk)
 
-![](<https://github.com/ragnar-document/glove-Compartment/blob/master/images/jdwachat1.png>)
+![](<https://github.com/ragnar-document/glove-Compartment/blob/master/images/kuai100.png>)
 
 ![](<https://github.com/ragnar-document/glove-Compartment/blob/master/images/jdwachat.png>)
 
