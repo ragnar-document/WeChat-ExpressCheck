@@ -1,7 +1,7 @@
 <view class="page-container">
   <view class="page-content">
     <view class="logo-contaienr">
-      <image src="https://q2.cdn.prodegree.com/jd_logo/2019/0508/DvLac4FM60uLv8baa71RbiTqtd0oeyoo4IhBGTco.jpg"></image>
+      <image  src="https://cdn.kuaidi100.com/images/logo.png?version=201707191039"></image>
     </view>
     <view class="form-item">
       <input class="form-item-input" 
@@ -10,11 +10,11 @@
         placeholder-class="form-item-input_placeholder" 
         bindinput="handleChange"/>
     </view>
-    <view class="form-item">
-      <button class="form-item-btn" 
-        hover-class="form-item-btn_hover" 
-        bindtap="handleSubmit">提交</button>
-    </view>
+    <picker class="form-picker" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        当前选择：{{array[index]}}
+      </view>
+    </picker>
     <view class="form-item">
       <button class="form-item-btn" 
         hover-class="form-item-btn_hover" 

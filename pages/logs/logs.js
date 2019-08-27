@@ -6,14 +6,17 @@ Page({
     detailList:[],
     toastText:"加载中",
     expName: '',
+    company: '',
   },
   onLoad: function(options){
     let order_id = options.order_id;
+    let company = options.company;
+    console.log(company)
     order_id && this.getData(order_id);
   },
   getData: function(order_id){
     let url = 'https://wuliu.market.alicloudapi.com/kdi';
-    let company = 'jd';
+    let company = this.data.company;
     wx.request({
       header:{
         "Authorization": "APPCODE 982c2dffc21b4b04a04aa6e88616848c"
