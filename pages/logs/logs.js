@@ -16,7 +16,7 @@ Page({
     let company = 'jd';
     wx.request({
       header:{
-        "Authorization": "APPCODE 982c2dffc21b4b04a04aa6e88616848c"
+        "Authorization": "APPCODE appCode(自行申请)"
       },
       url: url,
       data: {
